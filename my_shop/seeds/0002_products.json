@@ -1,0 +1,249 @@
+[
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "name": "\u0e42\u0e2d\u0e27\u0e31\u0e19\u0e15\u0e34\u0e19\u0e42\u0e01\u0e25\u0e14\u0e4c 3 in 1 \u0e41\u0e1e\u0e47\u0e01 12 \u0e0b\u0e2d\u0e07",
+            "price": "125",
+            "cost": 100,
+            "category": 1,
+            "image_url": "https://backend.tops.co.th/media/catalog/product/8/8/8850086163906_15-12-2022.jpg",
+            "status": "ACTIVE",
+            "quantity": 11
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "name": "\u0e42\u0e2d\u0e27\u0e31\u0e19\u0e15\u0e34\u0e19\u0e42\u0e01\u0e25\u0e14\u0e4c 3 in 1 \u0e41\u0e1e\u0e47\u0e01 12 \u0e0b\u0e2d\u0e07",
+            "price": "125",
+            "cost": 100,
+            "category": 1,
+            "image_url": "",
+            "status": "ACTIVE",
+            "quantity": 84
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "name": "\u0e21\u0e31\u0e19\u0e2b\u0e27\u0e32\u0e19\u0e0d\u0e35\u0e48\u0e1b\u0e38\u0e48\u0e19\u0e40\u0e1c\u0e32",
+            "price": "27",
+            "cost": 20,
+            "category": 2,
+            "image_url": "https://www.prachachat.net/wp-content/uploads/2020/06/8-2.jpg",
+            "status": "ACTIVE",
+            "quantity": 99
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "name": "\u0e1a\u0e34\u0e4a\u0e01\u0e40\u0e1b\u0e32\u0e2b\u0e21\u0e39\u0e2a\u0e31\u0e1a\u0e44\u0e02\u0e48\u0e40\u0e04\u0e47\u0e21",
+            "price": "20",
+            "cost": 17,
+            "category": 2,
+            "image_url": "http://about7eleven.com/wp-content/uploads/2021/08/7-113-5.jpg",
+            "status": "ACTIVE",
+            "quantity": 70
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "name": "\u0e02\u0e49\u0e32\u0e27\u0e1c\u0e31\u0e14\u0e44\u0e01\u0e48\u0e40\u0e01\u0e32\u0e2b\u0e25\u0e35",
+            "price": "45",
+            "cost": 40,
+            "category": 3,
+            "image_url": "",
+            "status": "ACTIVE",
+            "quantity": 99
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "name": "\u0e02\u0e49\u0e32\u0e27\u0e0d\u0e35\u0e48\u0e1b\u0e38\u0e48\u0e19\u0e1c\u0e31\u0e14\u0e41\u0e0b\u0e25\u0e21\u0e2d\u0e19",
+            "price": "37",
+            "cost": 30,
+            "category": 3,
+            "image_url": "",
+            "status": "ACTIVE",
+            "quantity": 71
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+            "name": "H FH \u0e02\u0e19\u0e21\u0e1b\u0e31\u0e07\u0e42\u0e25\u0e1f\u0e25\u0e39\u0e01\u0e40\u0e01\u0e14",
+            "price": "20",
+            "cost": 15,
+            "category": 4,
+            "image_url": "https://shop.farmhouse.co.th/media/catalog/product/cache/09ad5326b5f9b030d858c3959bbb1f0b/2/0/2021_loaf_raisin.png",
+            "status": "ACTIVE",
+            "quantity": 92
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "name": "\u0e40\u0e04\u0e49\u0e01\u0e01\u0e25\u0e49\u0e27\u0e22\u0e2b\u0e2d\u0e21",
+            "price": "10",
+            "cost": 7,
+            "category": 4,
+            "image_url": "https://pbs.twimg.com/media/DkPg-toVAAILco-.jpg",
+            "status": "ACTIVE",
+            "quantity": 26
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "name": "\u0e19\u0e21\u0e1e\u0e32\u0e2a\u0e2f \u0e40\u0e21\u0e08\u0e34\u0e08\u0e37\u0e14 830 \u0e21\u0e25.",
+            "price": "46.75",
+            "cost": 40,
+            "category": 5,
+            "image_url": "https://backend.tops.co.th/media/catalog/product/8/8/8850329183111_e24-03-2020.jpg",
+            "status": "ACTIVE",
+            "quantity": 58
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "name": "\u0e42\u0e22\u0e40\u0e01\u0e34\u0e23\u0e4c\u0e15\u0e14\u0e31\u0e0a\u0e0a\u0e35\u0e48\u0e27\u0e38\u0e49\u0e19\u0e21\u0e30\u0e1e\u0e23\u0e49\u0e32\u0e27",
+            "price": "15",
+            "cost": 10,
+            "category": 5,
+            "image_url": "https://backend.tops.co.th/media/catalog/product/8/8/8851717020148_22-06-2020.jpg",
+            "status": "ACTIVE",
+            "quantity": 40
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "name": "\u0e41\u0e21\u0e47\u0e01\u0e19\u0e31\u0e48\u0e21 \u0e2d\u0e31\u0e25\u0e21\u0e2d\u0e19\u0e14\u0e4c",
+            "price": "45",
+            "cost": 40,
+            "category": 6,
+            "image_url": "https://assets.unileversolutions.com/v1/1451839.png",
+            "status": "ACTIVE",
+            "quantity": 59
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "name": "\u0e40\u0e2d\u0e40\u0e0a\u0e35\u0e22\u0e19\u0e14\u0e35\u0e44\u0e25\u0e17\u0e4c \u0e40\u0e1c\u0e37\u0e2d\u0e01",
+            "price": "25",
+            "cost": 22,
+            "category": 6,
+            "image_url": "https://img.my-best.in.th/product_images/297b3310d8d5c88ee20e6180394f52e0.jpeg?ixlib=rails-4.2.0&q=70&lossless=0&w=800&h=800&fit=clip&s=d006c40fd097c0e17090fae42c106aae",
+            "status": "ACTIVE",
+            "quantity": 39
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "name": "\u0e04\u0e2d\u0e19\u0e40\u0e19\u0e48\u0e23\u0e2a\u0e14\u0e31\u0e49\u0e07\u0e40\u0e14\u0e34\u0e21",
+            "price": "20",
+            "cost": 18,
+            "category": 7,
+            "image_url": "https://media.allonline.7eleven.co.th/pdmain/401610-01-Supermarket-Cone.jpg",
+            "status": "ACTIVE",
+            "quantity": 30
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "name": "\u0e40\u0e25\u0e22\u0e4c\u0e23\u0e47\u0e2d\u0e04\u0e23\u0e2a\u0e21\u0e31\u0e19\u0e1d\u0e23\u0e31\u0e48\u0e07\u0e41\u0e17\u0e49",
+            "price": "45",
+            "cost": 35,
+            "category": 7,
+            "image_url": "",
+            "status": "ACTIVE",
+            "quantity": 19
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "name": "\u0e19\u0e49\u0e33\u0e1c\u0e36\u0e49\u0e07\u0e14\u0e2d\u0e19\u0e04\u0e33 770 \u0e01\u0e23\u0e31\u0e21",
+            "price": "185",
+            "cost": 150,
+            "category": 8,
+            "image_url": "https://media.allonline.7eleven.co.th/pdmain/357901-01-potato-chip-lays-v3.jpg",
+            "status": "ACTIVE",
+            "quantity": 15
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+            "name": "\u0e1b\u0e25\u0e32\u0e41\u0e21\u0e04\u0e40\u0e04\u0e2d\u0e40\u0e23\u0e25 \u0e42\u0e23\u0e0b\u0e48\u0e32 155 \u0e01\u0e23\u0e31\u0e21",
+            "price": "19.50",
+            "cost": 12,
+            "category": 8,
+            "image_url": "https://media.allonline.7eleven.co.th/pdzoom/394579_flashsale_Supermarket.jpg",
+            "status": "ACTIVE",
+            "quantity": 32
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 17,
+        "fields": {
+            "name": "\u0e02\u0e49\u0e32\u0e27\u0e2b\u0e2d\u0e21\u0e1c\u0e2a\u0e21 70:30 \u0e09\u0e31\u0e15\u0e23\u0e2a\u0e49\u0e21 5 \u0e01\u0e01.",
+            "price": "155",
+            "cost": 100,
+            "category": 8,
+            "image_url": "https://media.allonline.7eleven.co.th/pdzoom/247266-all-member-24012023.jpg",
+            "status": "ACTIVE",
+            "quantity": 4
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 18,
+        "fields": {
+            "name": "\u0e22\u0e32\u0e2a\u0e35\u0e1f\u0e31\u0e19\u0e04\u0e2d\u0e25\u0e40\u0e01\u0e15\u0e40\u0e01\u0e25\u0e37\u0e2d\u0e2a\u0e21\u0e38\u0e19\u0e44\u0e1e\u0e23 150 \u0e01\u0e23\u0e31\u0e21",
+            "price": "60",
+            "cost": 56,
+            "category": 9,
+            "image_url": "https://media.allonline.7eleven.co.th/pdmain/355093-01-Toothpaste-Colgate.jpg",
+            "status": "ACTIVE",
+            "quantity": 100
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 19,
+        "fields": {
+            "name": "\u0e1a\u0e23\u0e35\u0e2a\u0e40\u0e2d\u0e01\u0e40\u0e0b\u0e25 1500 \u0e01\u0e23\u0e31\u0e21",
+            "price": "169",
+            "cost": 140,
+            "category": 9,
+            "image_url": "https://media.allonline.7eleven.co.th/pdzoom/826995-all-member-02022023.jpg",
+            "status": "ACTIVE",
+            "quantity": 67
+        }
+    }
+]

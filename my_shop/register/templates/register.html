@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    <title>ลงทะเบียนพนักงาน</title>
+    <style>
+
+      *{
+        box-sizing :border-box;
+      }
+          .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+            margin-top: 25px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            background-color:#fff;
+            box-shadow: 0px 0px 24px #5C5696;
+            margin-bottom: 25px; 
+          }
+          
+          h1 {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+          }
+          
+          .info {
+            text-align : center;
+            padding: 10px;
+                       
+          }
+          
+          label {
+            display: inline-flex;
+            font-size: 18px;
+            margin-bottom: 10px;
+            margin-right:20px;
+          }
+
+          /*.container label {
+            text-align: center;
+            float: left;
+            
+          }
+
+          .container input{
+            text-align: center;
+            float: left;
+          }*/
+          
+          input[type="text"],
+          input[type="password"],
+          input[type="date"] {
+            outline: none;
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+            border:none;
+            border-bottom: 2px solid #ccc;
+            /*border-radius: 5px;*/
+            margin-bottom: 10px;
+            
+          }
+          
+          
+          input:active,
+          input:focus,
+          input:hover {
+              border-color: #6A679E;
+              outline: none;
+          }
+          
+
+          input[type="radio"] {
+            margin-right: 10px;
+          }
+          
+          button {
+            /*background-color: #3F497F;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor:default;*/
+          
+            margin-left:20px;
+            background: #fff;
+            font-size: 14px;
+            margin-top: 30px;
+            padding:10px 20px;
+            border-radius: 5px;
+            border: 1px solid #D4D3E8;
+            text-transform: uppercase;
+            font-weight: 700;
+            align-items: center;
+            color: #4C489D;
+            width:50%;
+            box-shadow: 0px 2px 2px #5C5696;
+            cursor: pointer;
+        
+    
+          }
+          
+          button:hover {
+            background-color :#9251d0;
+            transition: 0.3s ease;
+            border:1px solid #9251d0;
+            color:#fff;
+            
+          }
+
+          body{
+            /*background-image: url(https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FmZXxlbnwwfHwwfHw%3D&w=1000&q=80);*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*background-color:#9251d0 ;*/
+            background: linear-gradient(90deg, #C7C5F4, #9251d0);
+            
+           
+          }
+
+          *{
+            font-family: 'Mitr', sans-serif;
+          }
+          
+    </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ลงทะเบียนพนักงาน</h1>
+      <form method="POST">
+
+        <!--ชื่อนามสกุล-->
+
+        <div id="id_name" class="info">
+          <label for="id_username" class="form-label requiredField">ชื่อ - นามสกุล : </label>
+          <input type="text" name="username" maxlength="150" autofocus="" class="textinput form-control" required="" id="id_name"><br>
+        </div>
+
+        <!--รหัสพนักงาน-->
+
+        <div id="div_id_emp" class="info">
+          <label for="id_emp" class="form-label requiredField">&nbsp;รหัสพนักงาน : </label>
+          <input type="text" name="username" class="useridinput form-control" required="" id="id_userid">
+        </div>
+
+        <!--รหัส-->
+
+        <div id="id_password" class="info">
+          <label for="id_password" class="form-label requiredField">&emsp;&nbsp;&nbsp;&nbsp;รหัสผ่าน : </label>
+          <input type="password" name="username" maxlength="150" autofocus="" class="textinput form-control" required="" id="id_password">
+        </div>
+
+        <!--เบอร์โทร-->
+
+        <div id="id_tell" class="info">
+          <label for="id_tell" class="form-label requiredField">&emsp;&nbsp;&nbsp;&nbsp;เบอร์โทร : </label>
+          <input type="text" name="username" maxlength="15" autofocus="" class="textinput form-control" required="" id="id_tell">
+        </div>
+
+        <!--เพศ-->
+
+        <div id="id_gender" class="info">
+          <div class="sex">
+            <input type="radio" name="gender" value="ชาย">
+            <label for="male">ชาย</label>
+
+            <input type="radio" name="gender" value="หญิง">
+          <label for="female">หญิง</label>
+
+          <input type="radio" name="gender" value="ไม่ระบุ">
+          <label for="nogender">ไม่ระบุ</label><br>
+
+          </div>
+          
+        </div>
+
+        <div id="birthday" class="info">
+          <label for="id_birthday" class="form-label requiredField">วันเกิด</label>
+          <input type="date" name="birthday">
+        </div>
+        <!--ปุ่มยืนยัน-->
+        <div class="info">
+          <button class="btn btn-primary" type="submit">ลงทะเบียนพนักงาน</button>          
+        </div>
+
+  </div>
+</body>
+</html>
